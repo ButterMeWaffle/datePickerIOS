@@ -1,0 +1,6 @@
+<StackLayout class="p-20">
+    
+        <datePicker #datePicker  verticalAlignment="center" [(ngModel)]="date" horizontalAlignment="center"></datePicker>
+        <label [text]='date'></label>
+        <button text='tap to alert the value' (tap)='alertValue(date)'></button>
+</StackLayout>
